@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "id": "SMOKE-1",
+      "title": "Implement finite counter",
+      "change": "implement-finite-counter",
+      "priority": 1,
+      "scopes": ["src/counter"],
+      "dependencies": [],
+      "criteria": [
+        "Create src/counter/result.mjs exporting next(n).",
+        "Return n + 1 for finite numbers. Throw TypeError for nonnumbers, NaN, Infinity and negative Infinity.",
+        "Preserve the requirements.md file. Include tests within your scope."
+      ]
+    }
+  ]
+}
